@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 class GuessGame
 {
-	int tries=0;
+	
 	
 	public void generateNumber()
 	{
@@ -14,7 +14,8 @@ class GuessGame
 	}
 	
 	public void guess(int randomNum) 
-	{ Scanner sc=new Scanner(System.in);
+	{int tries=0;
+		Scanner sc=new Scanner(System.in);
 	
 		System.out.println("  ***** GUESS THE NUMBER *****");
 		System.out.println(" ");
